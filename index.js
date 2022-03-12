@@ -3,6 +3,8 @@ var menu = document.querySelector('.hamburger');
 var slider = document.querySelector('.eso')
 var slider1 = document.querySelector('.eso1')
 var slider2 = document.querySelector('.eso2')
+var slider3 = document.querySelector('.eso3')
+
 
 // method
 function toggleMenu (event) {
@@ -54,6 +56,17 @@ function toggleClose(event) {
 }
 
 slider2.addEventListener('click', toggleClose, false);
+
+
+//slider3
+
+function toggleClose(event) {
+  this.classList.toggle('close')
+  document.querySelector(".menuppal").classList.toggle("close")
+  event.preventDefault();
+}
+
+slider3.addEventListener('click', toggleClose, false);
 
 
 
