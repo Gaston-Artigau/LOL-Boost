@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elo Boost</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+    type="text/javascript" charset="utf-8"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+</head>
+<body>
+    <header class='header'>
+
+        <nav class="navbar" id="nav">
+            <p class="logo"><a href="/index.html"><span class="span-h1">ELO</span>BOOST</a></p>
+
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+
+            <ul class="ul nav-links main-nav menuppal">
+                <li><a href="#index" class="navbar__link link-item eso2">INICIO</a></li>
+                <li><a class="navbar__link" href="#service">SERVICIOS</a></li>
+                <li><a href="#aboutus" class="navbar__link eso">SOBRE NOSOTROS</a></li>
+                <li><a href="#contact" class="navbar__link eso1">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section1" id="index">
+            <div class="container-section1">
+                <h1 class="title">LOL <span>Boost</span></h1>
+                <p class="description">Trust ELO boosting for League of Legends to Challenger players with years of experience.</p>
+                <button class="button-section1"><a href="#service">Calcular Precio del Boost</a></button>
+            </div>
+        </section>
+
+        <section class="section2" id="service">
+            <h2>Calculate the price of your <span>boost</span></h2>
+
+            <div class="section2-container">
+                <div>
+                    <label for="">Boost type</label>
+                    <div>
+                        <select name="" id="">
+                            <option value="">By Division</option>
+                            <option value="">By Wins</option>
+                            <option value="">Placement Matches</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="">Region</label>
+                    <div>
+                        <select name="" id="">
+                            <option value="">Sudamerica</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class="img">
+
+                    </div>
+
+                    <div>
+                        <label for="">División Actual</label>
+                        <div>
+                            <select name="" id="select-actual">
+                                <option value="1">Iron IV</option>
+                                <option value="2">Iron III</option>
+                                <option value="3">Iron II</option>
+                                <option value="4">Iron I</option>
+                                <option value="5">Bronze IV</option>
+                                <option value="6">Bronze III</option>
+                                <option value="7">Bronze II</option>
+                                <option value="8">Bronze I</option>
+                                <option value="9">Silver IV</option>
+                                <option value="10">Silver III</option>
+                                <option value="11">Silver II</option>
+                                <option value="12">Silver I</option>
+                                <option value="13">Gold IV</option>
+                                <option value="14">Gold III</option>
+                                <option value="15">Gold II</option>
+                                <option value="16">Gold I</option>
+                                <option value="17">Platinum IV</option>
+                                <option value="18">Platinum III</option>
+                                <option value="19">Platinum II</option>
+                                <option value="20">Platinum I</option>
+                                <option value="21">Diamond IV</option>
+                                <option value="22">Diamond III</option>
+                                <option value="23">Diamond II</option>
+                                <option value="24">Diamond I</option>
+                                <option value="25">Master</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class="img">
+
+                    </div>
+
+                    <div>
+                        <label for="">División Deseada</label>
+                        <div>
+                            <select name="" id="select-desired">
+                                <option value="1">Iron IV</option>
+                                <option value="2">Iron III</option>
+                                <option value="3">Iron II</option>
+                                <option value="4">Iron I</option>
+                                <option value="5">Bronze IV</option>
+                                <option value="6">Bronze III</option>
+                                <option value="7">Bronze II</option>
+                                <option value="8">Bronze I</option>
+                                <option value="9">Silver IV</option>
+                                <option value="10">Silver III</option>
+                                <option value="11">Silver II</option>
+                                <option value="12">Silver I</option>
+                                <option value="13">Gold IV</option>
+                                <option value="14">Gold III</option>
+                                <option value="15">Gold II</option>
+                                <option value="16">Gold I</option>
+                                <option value="17">Platinum IV</option>
+                                <option value="18">Platinum III</option>
+                                <option value="19">Platinum II</option>
+                                <option value="20">Platinum I</option>
+                                <option value="21">Diamond IV</option>
+                                <option value="22">Diamond III</option>
+                                <option value="23">Diamond II</option>
+                                <option value="24">Diamond I</option>
+                                <option value="25">Master</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="">Current LP</label>
+                    <div>
+                        <select name="" id="">
+                            <option value="">LP 0-20</option>
+                            <option value="">LP 21-40</option>
+                            <option value="">LP 41-60</option>
+                            <option value="">LP 61-80</option>
+                            <option value="">LP 81-100</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="">Queue Type</label>
+                    <div>
+                        <select name="" id="">
+                            <option value="">Solo/Duo</option>
+                            <option value="">Flex</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <h3 class="price" id="price">Total Price: $20</h3>
+                <button><a href="https://wa.me/+5492477658055">Start Boost Now</a></button>
+            </div>
+
+        </section>
+
+        <section class="section3">
+            <div class="container-section3">
+                <div class="container-img"><img src="/assets/img/img2.svg" alt=""></div>
+                <h2 class="title-section3">Experiencia</h2>
+                <p class="description-section3">Our services are trusted by thousands of customers across the world.</p>
+            </div>
+
+            <div class="container2-section3">
+                <div class="container2-img"><img src="/assets/img/img3.svg" alt=""></div>
+                <h2 class="title-section3">Seguro</h2>
+                <p class="description-section3">We have the best boosters available in the industry ready to take your game to the next level.</p>
+            </div>
+
+            <div class="container3-section3">
+                <div class="container3-img"><img src="/assets/img/img4.svg" alt=""></div>
+                <h2 class="title-section3">Friendly</h2>
+                <p class="description-section3">Zero tolerance for toxicity and incredibly high standards are just some of the many reasons to choose us among the competition.</p>
+            </div>
+        </section>
+
+        <section class="section4" id="aboutus">
+            <h2>About League of Legends <br>Boosting</h2>
+            <p>League of Legends (LOL for short) boosting is when professional players help certain players rank up. The booster either plays from the customers' account or in a premade lobby. Since the skills of the boosters are among the top players in the world, the win probability for the teams change in a way that the enemy team has nearly no chance of winning. It is possible that the enemy team will also have a booster or professional player smurf but even that considered, Eloking booster team consists of the best boosters, ensuring high win rates even in such situations.
+            <br><br>
+            LOL boosting by Eloking is an unmatched boosting service due to the mix of hard to achieve ingridients - incredibly skilled boosters with great communication skills and attitude, broad availability, the best website and much more. Our customer retention rates and reviews speak for themselves. We are proud to be the top choice for boosting in the market.</p>
+        </section>
+
+        <section class="section5">
+            <h2 class="title-section5">Frequently asked questions about League of Legends boost</h2>
+            <div class="container-section5">
+                <div class="cards-section5">
+                    <span class="card-title">Is LOL ELO Boost safe?</span><span class="icon-card">&darr;</span>
+                    <p class="card-description">Yes. League boosting is safe and we have not encountered bans for this. It is like playing with a friend who is much more skilled than the average player.</p>
+                </div>
+
+                <div class="cards-section5">
+                    <span class="card-title">Can I play with ELO boosters together?</span><span class="icon-card">&darr;</span>
+                    <p class="card-description">Yes, of course. Simply choose the Lobby add-on in the lol boosting price calculator.</p>
+                </div>
+
+                <div class="cards-section5">
+                    <span class="card-title">How soon after placing the order we can play?</span><span class="icon-card">&darr;</span>
+                    <p class="card-description">It can depend based on the time of order but typically our boosters start communicating with our customers within 10 minutes. If you want to start right away, feel free to message in our live chat to check approximate starting times. Most likely, we will be able to find a booster ready to play at your desired time due to the fact we have a large amount of boosters working with us.</p>
+                </div>
+
+                <div class="cards-section5">
+                    <span class="card-title">What happens if the booster loses a game?</span><span class="icon-card">&darr;</span>
+                    <p class="card-description">It depends on the order details. If it is a rank boost, the booster will play as long as the goal is achieved. If you order win boost then losing a game means the booster will play extra games. Each loss will be compensated with 2 wins to offset the loss. For example, if you ordered 3 wins and on the 3rd game the booster lost the game, the booster will play 2 more games - 1 to offset the loss and another one to fulfil the order.</p>
+                </div>
+
+                <div class="cards-section5">
+                    <span class="card-title">What is the refund policy for league boosting?</span><span class="icon-card">&darr;</span>
+                    <p class="card-description">We are the most flexible company for refunds. Order not yet started? We offer refunds without any reasons. Changed your mind and just don't want to finalize the boost? No problem, we can stop the boost mid-way and offer you a reasonable refund.</p>
+                </div>
+
+                <div class="cards-section5">
+                    <span class="card-title">Will anyone know I am being boosted?</span><span class="icon-card">&darr;</span>
+                    <p class="card-description">Not really. While there will be a notable difference in the skill of the booster and you, the booster will not share any details about you and they will also not tell anyone that you are being boosted. It is possible to also agree on certain things with the booster, i.e., to have him play in offline mode if they play using your account. That kind of things are available free of charge.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section6">
+            <h2>Nuestros Boosters</h2>
+
+            <div class="container-section6" id="contact">
+                <div class="boosters-section6">
+                    <img src="/assets/img/img1.webp" alt="">
+                    <h3><a href="https://wa.me/+5492477658055">El Diego</a></h3>
+                    <p>
+                        Division: <span>Diamond II</span> <br>
+                        Clients: <span>5</span> <br>
+                        More info: <a href="https://lolprofile.net/es/summoner/las/Evaine%20Defy">Profile Stats</a> <br>
+                        Contact: <a href="https://wa.me/+5492477658055">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                                <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="boosters-section6">
+                    <img src="/assets/img/img1.webp" alt="">
+                    <h3><a href="https://wa.me/+5492477658055">Leonel Messi</a></h3>
+                    <p>
+                        Division: <span>Master</span> <br>
+                        Clients: <span>18</span> <br>
+                        More info: <a href="https://lolprofile.net/es/summoner/las/AA%20Seba">Profile Stats</a> <br>
+                        Contact: <a href="https://wa.me/+5492477658055">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                                <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2022 hecho para ELO BOOSTARG</p>
+        <a href="https://gaston-artigau.netlify.app/" target="_blank">Creado por Gastón Artigau</a>
+    </footer>
+
+    <script src="/index.js"></script>
+
+    <script>
+        $(function(){
+
+            $('a[href*=#]').click(function() {
+
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+                    && location.hostname == this.hostname) {
+
+                        var $target = $(this.hash);
+
+                        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+                        if ($target.length) {
+
+                            var targetOffset = $target.offset().top;
+
+                            $('html,body').animate({scrollTop: targetOffset}, 2000);
+
+                            return false;
+                        }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
