@@ -81,61 +81,33 @@ slider3.addEventListener('click', toggleClose, false);
 // menu.addEventListener('click', toggleAfterClose, false);
 
 
-
-// precio
-
-const price = document.getElementById('price')
-const select_actual = document.getElementById('select-actual')
-const select_desired = document.getElementById('select-desired')
-
-
-const fragment = document.createDocumentFragment()
-const p = document.createElement("P")
-
-const value_actual = parseInt(select_actual.options[select_actual.selectedIndex].value)
-
-const value_desired = parseInt(select_desired.options[select_desired.selectedIndex].value)
-
-const value_actual_add = parseInt(select_actual.options[select_actual.selectedIndex].value) +1
-
-console.log(value_actual)
-console.log(value_actual_add)
-console.log(value_desired == value_actual_add)
-
-result = 10
-// if (value_actual == 1 && value_desired == value_actual_add) {
-//   p.textContent = `$${result}`
-//   fragment.appendChild(p)
-//   console.log(p)
-//   price.appendChild(fragment)
-// }
-
-select_actual.options[select_actual.selectedIndex].addEventListener("click", () => {
-  if (value_actual == 1 && value_desired == value_actual_add) {
-    p.textContent = `$${result}`
-    fragment.appendChild(p)
-    console.log(p)
-    price.appendChild(fragment)
-  }
-})
-
-select_desired.options[select_desired.selectedIndex].addEventListener('click', () => {
-  load()
-  if (value_actual == 1 && value_desired == value_actual_add) {
-    p.textContent = `$${result}`
-    fragment.appendChild(p)
-    console.log(p)
-    price.appendChild(fragment)
-  }
-})
-
-
 //section5
 
 const card = document.querySelectorAll('.cards-section5')
-console.log(card)
 const description = document.querySelectorAll('.card-description')
 
 for (let i = 0; i < card.length; i++) {
   card[i].addEventListener("click", () => description[i].classList.toggle("visibility-card"))
+}
+
+
+//price2
+const division = document.querySelectorAll('.division')
+const img_select = document.querySelector('.img-select')
+const img_select2 = document.querySelector('.img-select2')
+const division2 = document.querySelectorAll('.division2')
+
+for (let i = 0; i < division.length; i++) {
+  division[i].addEventListener("click", (e) => {
+    division[i].classList.toggle("division-background")
+    console.log(e)
+    console.log(e.path[0].currentSrc)
+    img_select.src = e.path[0].currentSrc
+  })
+}
+
+for (let i = 0; i < division2.length; i++) {
+  division2[i].addEventListener("click", (e) => {
+    division2[i].classList.toggle("division-background")
+  })
 }
