@@ -93,21 +93,62 @@ for (let i = 0; i < card.length; i++) {
 
 //price2
 const division = document.querySelectorAll('.division')
+const subdivision = document.querySelectorAll('.subdivision')
+const division2 = document.querySelectorAll('.division2')
+const subdivision2 = document.querySelectorAll('.subdivision2')
 const img_select = document.querySelector('.img-select')
 const img_select2 = document.querySelector('.img-select2')
-const division2 = document.querySelectorAll('.division2')
+const img_actual = document.querySelector('.img-actual')
+const img_desired = document.querySelector('.img-desired')
+const division_actual = document.querySelector('.division-actual')
+const division_desired = document.querySelector('.division-desired')
 
+
+const value_actual = ''
+const value_desired = ''
 for (let i = 0; i < division.length; i++) {
   division[i].addEventListener("click", (e) => {
     division[i].classList.toggle("division-background")
-    console.log(e)
-    console.log(e.path[0].currentSrc)
     img_select.src = e.path[0].currentSrc
+    img_actual.src = e.path[0].currentSrc
+    // console.log(e)
+    // console.log(e.path[1].attributes[0].value)
+    img_actual.id = e.path[1].attributes[0].value
+    console.log(img_actual)
   })
 }
+
+for (let i = 0; i < subdivision.length; i++) {
+  subdivision[i].addEventListener("click", (e) => {
+    subdivision[i].classList.toggle("division-background")
+    division_actual.textContent = e.path[0].innerText
+    // console.log(e)
+    // console.log(e.path[0].attributes[0].value)
+    img_actual.id = e.path[0].attributes[0].value
+    console.log(img_actual)
+  })
+}
+
+//desired
 
 for (let i = 0; i < division2.length; i++) {
   division2[i].addEventListener("click", (e) => {
     division2[i].classList.toggle("division-background")
+    img_select2.src = e.path[0].currentSrc
+    img_desired.src = e.path[0].currentSrc
+    img_desired.id = e.path[1].attributes[0].value
+    console.log(img_desired)
   })
 }
+
+for (let i = 0; i < subdivision2.length; i++) {
+  subdivision2[i].addEventListener("click", (e) => {
+    subdivision2[i].classList.toggle("division-background")
+    division_desired.textContent = e.path[0].innerText
+    img_desired.id = e.path[0].attributes[0].value
+    console.log(img_desired)
+  })
+}
+
+const result = img_actual.id + img_desired.id
+console.log(result)
