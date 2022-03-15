@@ -575,6 +575,7 @@ select option {
 .to-price {
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 .price_title {
     font-size: 25px;
@@ -632,6 +633,9 @@ select option {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
+    background: linear-gradient(to bottom, rgb(6, 38, 128), rgb(15, 5, 43));
+    padding: 15px;
+    border-radius: 15px;
 }
 .section2-pay img {
     width: 150px;
@@ -658,16 +662,16 @@ select option {
 
 /* section3 */
 .section3 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     width: 85%;
     margin: 0 auto;
     gap: 40px;
-    justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .container-section3, .container2-section3, .container3-section3 {
-    text-align: center;
+    text-align: left;
 }
 .container-img, .container2-img, .container3-img {
     width: 10px;
@@ -677,7 +681,7 @@ select option {
     padding-bottom: 40px;
     padding-right: 40px;
     background-color: #2caa4c;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .container2-img {
     background-color: #4842d1;
@@ -692,6 +696,7 @@ select option {
 }
 @media (max-width: 720px) {
     .section3 {
+        display: flex;
         flex-direction: column;
         width: 60%;
         gap: 40px;
@@ -838,19 +843,26 @@ select option {
     font-size: 34px;
     margin-bottom: 0px;
     letter-spacing: 3px;
+    margin-top: 10px;
 }
 .boosters-section6 p {
     font-size: 22px;
-    /* text-align: left; */
+    color: rgb(218, 218, 218);
+    font-weight: bold;
     line-height: 1.5;
     margin: 0;
     margin-bottom: 10px;
     align-items: center;
 }
+.boosters-section6 a {
+    color: rgb(168, 168, 168);
+    text-decoration:underline;
+}
 .p1-section6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 }
 .boosters-section6 p img{
     width: 120px;
@@ -863,28 +875,28 @@ select option {
 .boosters-section6 h3 a {
     color: #fff;
 }
-.boosters-section6 span {
-    color: rgb(160, 77, 255);
-    font-size: 34px;
-}
 .icon {
     stroke: rgba(252, 252, 252, 0.719);
+    width: 32px;
+    height: 32px;
 }
 .icon:hover {
-    stroke: rgb(160, 77, 255);
+    stroke: rgb(98, 255, 77);
+    width: 34px;
+    height: 34px;
 }
 .boosters-section6 img {
     width: 340px;
-    height: 270px;
+    height: 250px;
     border-radius: 10px;
 }
 .boosters-section6 img:hover{
     width: 350px;
-    height: 277px;
+    height: 257px;
     transition: all .7s;
 }
 .boosters-section6 a:hover {
-    color: rgb(160, 77, 255);
+    color: rgb(77, 80, 255);
     letter-spacing: 1.2px;
 }
 @media (max-width: 850px) {
