@@ -102,6 +102,8 @@ const img_actual = document.querySelector('.img-actual')
 const img_desired = document.querySelector('.img-desired')
 const division_actual = document.querySelector('.division-actual')
 const division_desired = document.querySelector('.division-desired')
+const confirm = document.querySelector('.confirm')
+const price = document.querySelector('.price')
 
 
 const value_actual = ''
@@ -124,8 +126,7 @@ for (let i = 0; i < subdivision.length; i++) {
     division_actual.textContent = e.path[0].innerText
     // console.log(e)
     // console.log(e.path[0].attributes[0].value)
-    img_actual.id = e.path[0].attributes[0].value
-    console.log(img_actual)
+    division_actual.id = e.path[0].attributes[0].value
   })
 }
 
@@ -145,10 +146,110 @@ for (let i = 0; i < subdivision2.length; i++) {
   subdivision2[i].addEventListener("click", (e) => {
     subdivision2[i].classList.toggle("division-background")
     division_desired.textContent = e.path[0].innerText
-    img_desired.id = e.path[0].attributes[0].value
-    console.log(img_desired)
+    division_desired.id = e.path[0].attributes[0].value
   })
 }
 
-const result = img_actual.id + img_desired.id
-console.log(result)
+// const result = img_actual.id + img_desired.id
+// console.log(result)
+
+
+// img_actual.addEventListener("click", (e) => {
+//   // console.log(e.target.attributes[3].nodeValue)
+//   if ( e.target.attributes[3].nodeValue === "1") {
+//     console.log("price: $5")
+//   }
+//   if ( e.target.attributes[3].nodeValue === "2") {
+//     console.log("price: $7")
+//   }
+//   if ( e.target.attributes[3].nodeValue === "3") {
+//     console.log("price: $9")
+//   }
+//   if ( e.target.attributes[3].nodeValue === "4") {
+//     console.log("price: $11")
+//   }
+//   if ( e.target.attributes[3].nodeValue === "5") {
+//     console.log("price: $13")
+//   }
+//   if ( e.target.attributes[3].nodeValue === "6") {
+//     console.log("price: $15")
+//   }
+//   if ( e.target.attributes[3].nodeValue === "7") {
+//     console.log("price: $17")
+//   }
+// })
+
+// img_desired.addEventListener("click", (e) => {
+//   // console.log(e)
+//   if ( e.target.id === "12") {
+//     console.log("price: $5")
+//   }
+//   if ( e.target.id === "13") {
+//     console.log("price: $7")
+//   }
+//   if ( e.target.id === "14") {
+//     console.log("price: $9")
+//   }
+//   if ( e.target.id === "15") {
+//     console.log("price: $11")
+//   }
+//   if ( e.target.id === "16") {
+//     console.log("price: $13")
+//   }
+//   if ( e.target.id === "17") {
+//     console.log("price: $15")
+//   }
+//   if ( e.target.id === "18") {
+//     console.log("price: $17")
+//   }
+// })
+
+// //division hgfdjskaasjdhf
+
+// division_actual.addEventListener("click", (e) => {
+//   // console.log(e.path[0].attributes.id.nodeValue)
+//   if ( e.path[0].attributes.id.nodeValue === "11") {
+//     console.log("price: $5")
+//   }
+//   if ( e.path[0].attributes.id.nodeValue === "10") {
+//     console.log("price: $7")
+//   }
+//   if ( e.path[0].attributes.id.nodeValue === "9") {
+//     console.log("price: $9")
+//   }
+//   if ( e.path[0].attributes.id.nodeValue === "8") {
+//     console.log("price: $11")
+//   }
+// })
+
+// division_desired.addEventListener("click", (e) => {
+//   // console.log(e.target.id)
+//   if ( e.target.id === "22") {
+//     console.log("price: $5")
+//   }
+//   if ( e.target.id === "21") {
+//     console.log("price: $7")
+//   }
+//   if ( e.target.id === "20") {
+//     console.log("price: $9")
+//   }
+//   if ( e.target.id === "19") {
+//     console.log("price: $11")
+//   }
+// })
+
+
+confirm.addEventListener("click", () => {
+  console.log(img_actual.id)
+  if (img_actual.id === "" && division_actual.id === "" && img_desired.id === "" && division_desired.id === "") {
+    price.textContent = "Debe seleccionar TODOS los parametros"
+  }
+
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "12" && division_desired.id === "19") {
+    price.textContent = "No cotizable"
+  }
+
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "12" && division_desired.id === "20") {
+    price.textContent = "14"
+  }
+})
