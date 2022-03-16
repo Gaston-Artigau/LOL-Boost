@@ -401,6 +401,8 @@ main {
 }
 .button-section1:hover {
     background-color: #3d3892;
+    filter: drop-shadow(0 0 0px var(--buttons)) drop-shadow(0 0 10px var(--buttons)) drop-shadow(0 0 40px var(--buttons));
+    transition: all .5s;
 }
 @media (min-width: 680px) {
     .section1 {
@@ -445,20 +447,20 @@ main {
 .container1-section2 {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px dashed rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     margin-bottom: 100px;
 }
 .container2-section2 {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px dashed rgba(255, 255, 255, 0.2);
     border-radius: 10px;
 }
 .subcontainer1-section2 {
@@ -496,19 +498,25 @@ select option {
 .options-section2 {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 45px;
+}
+.p-section2 {
+    background-color: rgba(255, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 7px;
 }
 .divisions-section2 {
     margin-bottom: 40px;
 }
 
 .division1-section2 div {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.07);
     backdrop-filter: blur(10px);
     border-radius: 10px;
 }
 .division2-section2 div {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.07);
     backdrop-filter: blur(10px);
     padding: 10px 15px;
     border-radius: 10px;
@@ -530,7 +538,7 @@ select option {
         gap: 30px;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 480px) {
     .options-section2 {
         flex-direction: column;
         gap: 10px;
@@ -547,7 +555,7 @@ select option {
     font-style: italic;
 }
 .container-price {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     padding: 10px;
     border-radius: 10px;
@@ -560,7 +568,7 @@ select option {
     justify-content: center;
 }
 .container-divisions-selected div {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.07);
     backdrop-filter: blur(10px);
     padding: 0px 15px;
     border-radius: 5px 20px;
@@ -612,6 +620,8 @@ select option {
 }
 .confirm:hover {
     background: linear-gradient(to bottom, rgb(11, 11, 78), rgb(11, 62, 156));
+    filter: drop-shadow(0 0 1px rgb(16, 16, 117)) drop-shadow(0 0 10px rgb(14, 79, 199)) drop-shadow(0 0 20px rgb(14, 79, 199));
+    transition: all .8s;
 }
 @media (max-width: 430px) {
     .container-divisions-selected div {
@@ -637,24 +647,77 @@ select option {
     padding: 15px;
     border-radius: 15px;
 }
-.section2-pay img {
+/* .section2-pay img {
     width: 150px;
     height: 100%;
+} */
+.visa-logo {
+    width:90px
 }
+.binance-logo {
+    width:140px;
+    margin-top:4px;
+}
+.uala-logo {
+    width:80px;
+    margin-top:-8px;
+}
+.mercado-pago-logo {
+    width:60px;
+    margin-top:-3px;
+}
+
 @media (max-width: 700px) {
-    .section2-pay {
-        margin-bottom: 120px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+    .visa-logo {
+        width:75px
+    }
+    .binance-logo {
+        width:110px;
+    }
+    .uala-logo {
+        width:65px;
+    }
+    .mercado-pago-logo {
+        width:55px;
     }
 }
-@media (max-width: 330px) {
+@media (max-width: 500px) {
+    .section2-pay {
+        margin-bottom: 20px;
+    }
+    .visa-logo {
+        width:67px
+    }
+    .binance-logo {
+        width:85px;
+    }
+    .uala-logo {
+        width:53px;
+    }
+    .mercado-pago-logo {
+        width:45px;
+    }
+}
+@media (max-width: 360px) {
+    .visa-logo {
+        width:45px;
+    }
+    .binance-logo {
+        width:65px;
+    }
+    .uala-logo {
+        width:40px;
+    }
+    .mercado-pago-logo {
+        width:35px;
+    }
+}
+@media (max-width: 290px) {
     .section2-pay {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 100px;
+        margin-bottom: 0px;
         gap: 20px;
     }
 }
@@ -854,6 +917,9 @@ select option {
     margin-bottom: 10px;
     align-items: center;
 }
+.margin-card {
+    margin-top: 10px;
+}
 .boosters-section6 a {
     color: rgb(168, 168, 168);
     text-decoration:underline;
@@ -875,16 +941,35 @@ select option {
 .boosters-section6 h3 a {
     color: #fff;
 }
+
+/* icons */
 .icon {
     stroke: rgba(252, 252, 252, 0.719);
     width: 32px;
     height: 32px;
 }
 .icon:hover {
-    stroke: rgb(98, 255, 77);
     width: 34px;
     height: 34px;
+    transition: all 0.7s;
 }
+.icon-tabler-brand-twitter:hover {
+    stroke: #00acee;
+    filter: drop-shadow(0 0 10px #00acee) drop-shadow(0 0 20px #00acee) drop-shadow(0 0 40px #00acee);
+}
+.icon-tabler-brand-facebook:hover {
+    stroke: #3b5998;
+    filter: drop-shadow(0 0 10px #3b5998) drop-shadow(0 0 20px #3b5998) drop-shadow(0 0 40px #3b5998);
+}
+.icon-tabler-brand-instagram:hover {
+    stroke: #d6249f;
+    filter: drop-shadow(0 0 10px #d6249f) drop-shadow(0 0 20px #fd5949) drop-shadow(0 0 40px #fdf497);
+}
+.icon-tabler-brand-whatsapp:hover {
+    stroke: rgb(98, 255, 77);
+    filter: drop-shadow(0 0 10px rgb(98, 255, 77)) drop-shadow(0 0 20px rgb(98, 255, 77)) drop-shadow(0 0 40px rgb(98, 255, 77));
+}
+
 .boosters-section6 img {
     width: 340px;
     height: 250px;
@@ -897,7 +982,8 @@ select option {
 }
 .boosters-section6 a:hover {
     color: rgb(77, 80, 255);
-    letter-spacing: 1.2px;
+    letter-spacing: 2px;
+    transition: all .7s;
 }
 @media (max-width: 850px) {
     .section6 {
@@ -970,5 +1056,5 @@ footer a:hover {
 .container-social {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 }
