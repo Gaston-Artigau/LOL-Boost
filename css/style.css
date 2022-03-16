@@ -402,7 +402,7 @@ main {
 .button-section1:hover {
     background-color: #3d3892;
     filter: drop-shadow(0 0 0px var(--buttons)) drop-shadow(0 0 10px var(--buttons)) drop-shadow(0 0 40px var(--buttons));
-    transition: all .5s;
+    transition: all 1s;
 }
 @media (min-width: 680px) {
     .section1 {
@@ -647,38 +647,40 @@ select option {
     padding: 15px;
     border-radius: 15px;
 }
-/* .section2-pay img {
-    width: 150px;
-    height: 100%;
-} */
 .visa-logo {
-    width:90px
+    width:110px;
+    height: 50px;
 }
 .binance-logo {
     width:140px;
-    margin-top:4px;
+    margin-top:-5px;
 }
 .uala-logo {
-    width:80px;
+    width:100px;
+    height: 60px;
     margin-top:-8px;
 }
 .mercado-pago-logo {
-    width:60px;
+    width:70px;
     margin-top:-3px;
 }
 
 @media (max-width: 700px) {
     .visa-logo {
-        width:75px
+        width:75px;
+        height:auto;
     }
     .binance-logo {
-        width:110px;
+        width:105px;
+        height:auto;
     }
     .uala-logo {
-        width:65px;
+        width:70px;
+        height:auto;
     }
     .mercado-pago-logo {
         width:55px;
+        height:auto;
     }
 }
 @media (max-width: 500px) {
@@ -689,10 +691,10 @@ select option {
         width:67px
     }
     .binance-logo {
-        width:85px;
+        width:82px;
     }
     .uala-logo {
-        width:53px;
+        width:56px;
     }
     .mercado-pago-logo {
         width:45px;
