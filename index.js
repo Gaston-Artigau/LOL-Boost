@@ -382,6 +382,285 @@ confirm.addEventListener("click", () => {
     price.textContent = "No cotizable"
   }
 
+  //hierro IV
+
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "12" && division_desired.id === "21") {
+    price.textContent = "2"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "12" && division_desired.id === "20") {
+    price.textContent = "4"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "12" && division_desired.id === "19") {
+    price.textContent = "6"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "13" && division_desired.id === "22") {
+    price.textContent = "8"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "13" && division_desired.id === "21") {
+    price.textContent = "11"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "13" && division_desired.id === "20") {
+    price.textContent = "14"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "13" && division_desired.id === "19") {
+    price.textContent = "17"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "22") {
+    price.textContent = "20"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "24"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "28"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "32"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "37"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "41.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "46"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "50.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "57.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "66.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "75.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "84.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "98.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "123.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "148.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "173,50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "11" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "273.50"
+  }
+
+
+  //hierro III
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "12" && division_desired.id === "20") {
+    price.textContent = "2"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "12" && division_desired.id === "19") {
+    price.textContent = "4"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "13" && division_desired.id === "22") {
+    price.textContent = "6"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "13" && division_desired.id === "21") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "13" && division_desired.id === "20") {
+    price.textContent = "12"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "13" && division_desired.id === "19") {
+    price.textContent = "15"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "22") {
+    price.textContent = "18"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "22"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "26"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "30"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "35"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "39.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "44"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "48.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "55.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "64.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "73.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "82.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "96.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "121.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "146.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "171.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "10" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "271.50"
+  }
+
+  //hierro II
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "12" && division_desired.id === "19") {
+    price.textContent = "2"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "13" && division_desired.id === "22") {
+    price.textContent = "4"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "13" && division_desired.id === "21") {
+    price.textContent = "7"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "13" && division_desired.id === "20") {
+    price.textContent = "10"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "13" && division_desired.id === "19") {
+    price.textContent = "13"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "22") {
+    price.textContent = "16"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "20"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "24"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "28"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "33"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "37.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "42"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "46.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "53.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "62.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "71.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "80.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "94.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "119.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "144.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "169.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "9" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "255.50"
+  }
+
+  //hierro I
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "13" && division_desired.id === "22") {
+    price.textContent = "2"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "13" && division_desired.id === "21") {
+    price.textContent = "5"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "13" && division_desired.id === "20") {
+    price.textContent = "8"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "13" && division_desired.id === "19") {
+    price.textContent = "11"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "14" && division_desired.id === "22") {
+    price.textContent = "14"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "18"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "22"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "26"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "31"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "35.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "40"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "44.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "51.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "60.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "69.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "78.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "92.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "117.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "142.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "167.50"
+  }
+  if (img_actual.id === "1" && division_actual.id === "8" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "267.50"
+  }
 
   //division de bronce
   if (img_actual.id === "2" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9") && img_desired.id === "13" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21")) {
@@ -394,6 +673,237 @@ confirm.addEventListener("click", () => {
     price.textContent = "No cotizable"
   }
 
+  //bronce IV
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "13" && division_desired.id === "21") {
+    price.textContent = "3"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "13" && division_desired.id === "20") {
+    price.textContent = "6"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "13" && division_desired.id === "19") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "22") {
+    price.textContent = "12"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "16"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "20"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "24"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "29"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "33.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "38"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "42.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "49.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "58.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "67.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "76.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "90.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "115.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "140.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "165.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "265.50"
+  }
+
+  //bronce III
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "13" && division_desired.id === "20") {
+    price.textContent = "3"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "13" && division_desired.id === "19") {
+    price.textContent = "6"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "22") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "13"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "17"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "21"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "26"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "30.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "35"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "39.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "46.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "55.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "64.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "73.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "87.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "112.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "137.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "162.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "10" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "262.50"
+  }
+
+  //bronce II
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "13" && division_desired.id === "19") {
+    price.textContent = "3"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "22") {
+    price.textContent = "6"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "10"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "14"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "18"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "23"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "27.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "32"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "36.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "43.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "52.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "61.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "70.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "84.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "109.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "134.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "159.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "9" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "159.50"
+  }
+
+  //bronce I
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "14" && division_desired.id === "22") {
+    price.textContent = "3"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "7"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "11"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "15"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "20"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "24.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "29"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "33.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "40.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "49.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "58.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "67.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "81.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "106.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "131.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "156.50"
+  }
+  if (img_actual.id === "2" && division_actual.id === "8" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "256.50"
+  }
+  
+
 
   //division de plata
   if (img_actual.id === "3" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9") && img_desired.id === "14" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21")) {
@@ -404,6 +914,188 @@ confirm.addEventListener("click", () => {
   }
   if (img_actual.id === "3" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "14" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
     price.textContent = "No cotizable"
+  }
+
+  //plata IV
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "21") {
+    price.textContent = "4"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "8"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "12"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "17"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "21.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "26"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "30.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "37.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "46.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "55.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "64.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "78.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "103.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "128.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "153.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "253.50"
+  }
+
+  //plata III
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "20") {
+    price.textContent = "4"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "8"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "13"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "17.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "22"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "26.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "33.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "42.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "51.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "60.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "74.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "99.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "124.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "149.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "10" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "249.50"
+  }
+
+  //plata II
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "14" && division_desired.id === "19") {
+    price.textContent = "4"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "13.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "18"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "22.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "29.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "38.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "47.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "56.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "70.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "95.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "120.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "145.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "9" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "245.50"
+  }
+
+  //plata I
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "22") {
+    price.textContent = "5"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "9.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "14"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "18.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "25.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "34.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "43.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "52.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "66.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "91.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "116.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "141.50"
+  }
+  if (img_actual.id === "3" && division_actual.id === "8" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "241.50"
   }
 
 
@@ -418,6 +1110,140 @@ confirm.addEventListener("click", () => {
     price.textContent = "No cotizable"
   }
 
+  //oro IV
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "21") {
+    price.textContent = "4.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "13.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "20.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "29.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "38.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "47.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "61.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "86.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "111.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "136.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "236.50"
+  }
+
+  //oro III
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "20") {
+    price.textContent = "4.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "16"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "25"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "34"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "43"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "57"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "82"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "107"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "132"
+  }
+  if (img_actual.id === "4" && division_actual.id === "10" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "232"
+  }
+
+  //oro II
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "15" && division_desired.id === "19") {
+    price.textContent = "4.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "11.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "20.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "29.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "38.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "52.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "77.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "102.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "127.50"
+  }
+  if (img_actual.id === "4" && division_actual.id === "9" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "227.50"
+  }
+
+  //oro I
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "22") {
+    price.textContent = "7"
+  }
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "16"
+  }
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "25"
+  }
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "34"
+  }
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "48"
+  }
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "73"
+  }
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "98"
+  }
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "123"
+  }
+  if (img_actual.id === "4" && division_actual.id === "8" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "223"
+  }
+
 
   //division de platino
   if (img_actual.id === "5" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9") && img_desired.id === "16" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21") ) {
@@ -430,6 +1256,92 @@ confirm.addEventListener("click", () => {
     price.textContent = "No cotizable"
   }
 
+  //platino IV
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "21") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "18"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "27"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "41"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "66"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "91"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "116"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "216"
+  }
+
+  //platino III
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "20") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "18"
+  }
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "32"
+  }
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "57"
+  }
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "82"
+  }
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "107"
+  }
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "207"
+  }
+
+  //platino II
+  if (img_actual.id === "5" && division_actual.id === "9" && img_desired.id === "16" && division_desired.id === "19") {
+    price.textContent = "9"
+  }
+  if (img_actual.id === "5" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "23"
+  }
+  if (img_actual.id === "5" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "48"
+  }
+  if (img_actual.id === "5" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "73"
+  }
+  if (img_actual.id === "5" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "98"
+  }
+  if (img_actual.id === "5" && division_actual.id === "9" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "198"
+  }
+
+  //platino I
+  if (img_actual.id === "5" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "22") {
+    price.textContent = "25"
+  }
+  if (img_actual.id === "5" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "50"
+  }
+  if (img_actual.id === "5" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "75"
+  }
+  if (img_actual.id === "5" && division_actual.id === "8" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "100"
+  }
+  if (img_actual.id === "5" && division_actual.id === "8" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "200"
+  }
+
 
   //division de diamante
   if (img_actual.id === "6" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9") && img_desired.id === "17" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21")) {
@@ -440,6 +1352,44 @@ confirm.addEventListener("click", () => {
   }
   if (img_actual.id === "6" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "17" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
     price.textContent = "No cotizable"
+  }
+
+  //diamante IV
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "21") {
+    price.textContent = "25"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "50"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "75"
+  }
+  if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "175"
+  }
+
+  //diamante III
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "20") {
+    price.textContent = "25"
+  }
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "50"
+  }
+  if (img_actual.id === "5" && division_actual.id === "10" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "150"
+  }
+
+  //diamante II
+  if (img_actual.id === "5" && division_actual.id === "9" && img_desired.id === "17" && division_desired.id === "19") {
+    price.textContent = "25"
+  }
+  if (img_actual.id === "5" && division_actual.id === "9" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "125"
+  }
+
+  //diamante I
+  if (img_actual.id === "5" && division_actual.id === "8" && img_desired.id === "18" && division_desired.id === "19") {
+    price.textContent = "100"
   }
 
 
