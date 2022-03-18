@@ -1397,7 +1397,7 @@ confirm.addEventListener("click", () => {
   if (img_actual.id === "7" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9") && img_desired.id === "18" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21")) {
     price.textContent = "100"
   }
-  if (img_actual.id === "7" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "18" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
-    price.textContent = "No cotizable"
-  }
+  // if (img_actual.id === "7" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "18" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
+  //   price.textContent = "No cotizable"
+  // }
 })
