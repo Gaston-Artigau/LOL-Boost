@@ -1060,3 +1060,6 @@ footer a:hover {
     justify-content: center;
     gap: 15px;
 }
+.footer ul p {
+    margin-top: 20px;
+}

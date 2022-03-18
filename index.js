@@ -378,9 +378,9 @@ confirm.addEventListener("click", () => {
   // if (img_actual.id === "1" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "13" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22")) {
   //   price.textContent = "2"
   // }
-  if (img_actual.id === "1" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "12" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
-    price.textContent = "No cotizable"
-  }
+  // if (img_actual.id === "1" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "12" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
+  //   price.textContent = "No cotizable"
+  // }
 
   //hierro IV
 
@@ -669,9 +669,9 @@ confirm.addEventListener("click", () => {
   // if (img_actual.id === "2" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "14" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22")) {
   //   price.textContent = "3"
   // }
-  if (img_actual.id === "2" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "13" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
-    price.textContent = "No cotizable"
-  }
+  // if (img_actual.id === "2" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "13" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
+  //   price.textContent = "No cotizable"
+  // }
 
   //bronce IV
   if (img_actual.id === "2" && division_actual.id === "11" && img_desired.id === "13" && division_desired.id === "21") {
@@ -912,9 +912,9 @@ confirm.addEventListener("click", () => {
   // if (img_actual.id === "3" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "15" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22")) {
   //   price.textContent = "5"
   // }
-  if (img_actual.id === "3" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "14" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
-    price.textContent = "No cotizable"
-  }
+  // if (img_actual.id === "3" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "14" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
+  //   price.textContent = "No cotizable"
+  // }
 
   //plata IV
   if (img_actual.id === "3" && division_actual.id === "11" && img_desired.id === "14" && division_desired.id === "21") {
@@ -1106,9 +1106,9 @@ confirm.addEventListener("click", () => {
   // if (img_actual.id === "4" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "16" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22")) {
   //   price.textContent = "7"
   // }
-  if (img_actual.id === "4" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "15" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
-    price.textContent = "No cotizable"
-  }
+  // if (img_actual.id === "4" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "15" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
+  //   price.textContent = "No cotizable"
+  // }
 
   //oro IV
   if (img_actual.id === "4" && division_actual.id === "11" && img_desired.id === "15" && division_desired.id === "21") {
@@ -1252,9 +1252,9 @@ confirm.addEventListener("click", () => {
   // if (img_actual.id === "5" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "17" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22")) {
   //   price.textContent = "14"
   // }
-  if (img_actual.id === "5" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "16" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
-    price.textContent = "No cotizable"
-  }
+  // if (img_actual.id === "5" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "16" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
+  //   price.textContent = "No cotizable"
+  // }
 
   //platino IV
   if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "16" && division_desired.id === "21") {
@@ -1350,9 +1350,9 @@ confirm.addEventListener("click", () => {
   // if (img_actual.id === "6" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "18" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22")) {
   //   price.textContent = "100"
   // }
-  if (img_actual.id === "6" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "17" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
-    price.textContent = "No cotizable"
-  }
+  // if (img_actual.id === "6" && (division_actual.id === "11" || division_actual.id === "10" || division_actual.id === "9" || division_actual.id === "8") && img_desired.id === "17" && (division_desired.id === "19" || division_desired.id === "20" || division_desired.id === "21" || division_desired.id === "22") && division_desired.id == (Number(division_actual.id)+11).toString() || division_desired.id == (Number(division_actual.id)+12).toString() || division_desired.id == (Number(division_actual.id)+13).toString() || division_desired.id == (Number(division_actual.id)+14).toString() ) {
+  //   price.textContent = "No cotizable"
+  // }
 
   //diamante IV
   if (img_actual.id === "5" && division_actual.id === "11" && img_desired.id === "17" && division_desired.id === "21") {
