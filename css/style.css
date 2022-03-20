@@ -330,10 +330,6 @@ main {
     .container-social {
         display: none;
     }
-    .social-media {
-        list-style: none;
-        display: flex;
-    }
     .icon {
         width: 26px;
         height: 26px;
@@ -343,6 +339,11 @@ main {
     .hamburger {
         padding: 20px 20px;
     }
+}
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 /* main */
@@ -479,7 +480,7 @@ select {
     padding: 4px;
 }
 select option {
-    background-color: #18275c;
+    background-color: #0d1530;
     color: #fff;
 }
 .division1-section2 {
@@ -514,6 +515,9 @@ select option {
     background-color: rgba(255, 255, 255, 0.07);
     backdrop-filter: blur(10px);
     border-radius: 10px;
+}
+.division1-section2 div:hover, .division2-section2 div:hover {
+    background-color: rgba(255, 255, 255, 0.03);
 }
 .division2-section2 div {
     background-color: rgba(255, 255, 255, 0.07);
@@ -880,12 +884,14 @@ select option {
 /* section6 */
 .section6 {
     width: 90%;
-    margin: 100px auto;
+    margin: 130px auto;
+    margin-bottom: 60px;
 }
 .section6 h2 {
     font-size: 34px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    margin-top: 100px;
 }
 .container-section6 {
     display: flex;
