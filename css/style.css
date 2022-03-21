@@ -1069,3 +1069,17 @@ footer a:hover {
 .footer ul p {
     margin-top: 20px;
 }
+
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, a::selection, span::selection, div::selection, label::selection, select::selection {
+    color: #fff;
+    background-color:#080f28;
+}
+span::selection {
+    color: white;
+}
+h1::selection, h2::selection, b::selection {
+    color: rgb(130, 0, 190);
+}
+img::selection {
+    background-color: #433da7;
+}
