@@ -32,16 +32,32 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     border-radius: 6px;
-    background-color: rgb(87, 38, 167);
+    background-color: #147e3c;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background: rgb(46, 9, 95);
+    background: rgb(9, 95, 38);
 }
 
 body::-webkit-scrollbar-thumb:active {
-    background-color: rgb(46, 9, 95);
+    background-color: rgb(9, 95, 28);
 }
+
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, a::selection, span::selection, div::selection, label::selection, select::selection {
+    color: #fff;
+    background-color:#080f28;
+}
+span::selection {
+    color: white;
+}
+h1::selection, h2::selection, b::selection {
+    /* color: rgb(130, 0, 190); */
+    color: #199649;
+}
+img::selection {
+    background-color: #433da7;
+}
+
 li {
     list-style: none;
 }
@@ -76,7 +92,8 @@ main {
     color: white;
 }
 .logo span {
-    color: rgb(130, 0, 190);
+    /* color: rgb(130, 0, 190); */
+    color: #147e3c;
 }
 
 .ul a {
@@ -96,7 +113,8 @@ main {
 }
 
 .ul li a:hover {
-    color: rgb(160, 77, 255);
+    /* color: rgb(160, 77, 255); */
+    color: #17aa4f;
     font-size: 15.3px;
 }
 .icon:hover {
@@ -349,7 +367,7 @@ main {
 /* main */
 
 .section1 {
-    background-image: url(/assets/img/image.webp);
+    background-image: url(/assets/img/font2.webp);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -372,7 +390,9 @@ main {
     text-align: center;
 }
 .title span {
-    color: rgb(130, 0, 190);
+    /* color: rgb(130, 0, 190); */
+    color: rgb(19, 211, 105);
+    color: #147e3c;
 }
 .description {
     text-transform: uppercase;
@@ -392,7 +412,7 @@ main {
     font-size: 18px;
     margin-top: 50px;
     cursor: pointer;
-    background-color: var(--buttons);
+    background-color: #147e3c;
     color: white;
     padding: 10px;
     border: none;
@@ -401,8 +421,11 @@ main {
     height: auto;
 }
 .button-section1:hover {
-    background-color: #3d3892;
-    filter: drop-shadow(0 0 0px var(--buttons)) drop-shadow(0 0 10px var(--buttons)) drop-shadow(0 0 40px var(--buttons));
+    /* background-color: #3d3892; */
+    /* filter: drop-shadow(0 0 0px var(--buttons)) drop-shadow(0 0 10px var(--buttons)) drop-shadow(0 0 40px var(--buttons));
+    transition: all 1s; */
+    background-color: rgb(0, 83, 32);
+    filter: drop-shadow(0 0 0px #147e3c) drop-shadow(0 0 10px #147e3c) drop-shadow(0 0 40px #147e3c);
     transition: all 1s;
 }
 @media (min-width: 680px) {
@@ -1097,18 +1120,4 @@ footer a:hover {
 }
 .footer ul p {
     margin-top: 20px;
-}
-
-p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, a::selection, span::selection, div::selection, label::selection, select::selection {
-    color: #fff;
-    background-color:#080f28;
-}
-span::selection {
-    color: white;
-}
-h1::selection, h2::selection, b::selection {
-    color: rgb(130, 0, 190);
-}
-img::selection {
-    background-color: #433da7;
 }
