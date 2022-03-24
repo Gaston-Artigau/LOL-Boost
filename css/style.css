@@ -332,6 +332,7 @@ main {
         font-size: 24px;
         margin-right: 10px;
         margin-left: 10px;
+        height: 70px;
     }
 } 
 
@@ -386,13 +387,13 @@ main {
     font-size: 28px;
     padding-top: 50px;
     padding-bottom: 10px;
-    line-height: 50px;
+    /* line-height: 50px; */
     text-align: center;
 }
 .title span {
     /* color: rgb(130, 0, 190); */
     color: rgb(19, 211, 105);
-    color: #147e3c;
+    /* color: #147e3c; */
 }
 .description {
     text-transform: uppercase;
@@ -670,7 +671,7 @@ select option {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
-    background: linear-gradient(to bottom, rgb(22, 128, 40), rgb(19, 82, 12));
+    background: linear-gradient(to bottom, #189749, #114d28);
     padding: 15px;
     border-radius: 15px;
 }
