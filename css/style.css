@@ -652,73 +652,102 @@ select option {
     border-radius: 15px;
 }
 .visa-logo {
-    width:110px;
+    width: 135px;
     height: 50px;
+    margin-top: 10px;
 }
-.binance-logo {
-    width:140px;
+.bitcoin-logo {
+    width: 140px;
+    height: 80px;
     margin-top:-5px;
 }
-.uala-logo {
-    width:100px;
-    height: 60px;
-    margin-top:-8px;
-}
 .mercado-pago-logo {
-    width:70px;
+    width: 240px;
+    height: 77px;
     margin-top:-3px;
 }
+.paypal-logo {
+    width: 75px;
+    height: 75px;
+}
+.mastercard-logo {
+    width: 122px;
+    height: 75px;
+}
 
-@media (max-width: 700px) {
+@media (max-width: 880px) {
     .visa-logo {
-        width:75px;
-        height:auto;
+        width: 90px;
+        height: 40px;
+        margin-top: 5px;
     }
-    .binance-logo {
-        width:105px;
-        height:auto;
-    }
-    .uala-logo {
-        width:70px;
-        height:auto;
+    .bitcoin-logo {
+        width: 110px;
+        height: 60px;
     }
     .mercado-pago-logo {
-        width:55px;
-        height:auto;
+        width: 185px;
+        height: 60px;
     }
+    .paypal-logo {
+        width: 60px;
+        height: 60px;
+    }
+    .mastercard-logo {
+        width: 88px;
+        height: 55px;
+    }
+    
 }
-@media (max-width: 500px) {
+@media (max-width: 680px) {
     .section2-pay {
         margin-bottom: 20px;
     }
     .visa-logo {
-        width:67px
+        width: 80px;
+        height: 35px;
     }
-    .binance-logo {
-        width:82px;
-    }
-    .uala-logo {
-        width:56px;
+    .bitcoin-logo {
+        width: 88px;
+        height: 52px;
     }
     .mercado-pago-logo {
-        width:45px;
+        width: 140px;
+        height: 50px;
     }
+    .paypal-logo {
+        width: 47px;
+        height: 47px;
+    }
+    .mastercard-logo {
+        width: 72px;
+        height: 47px;
+    }
+    
 }
-@media (max-width: 360px) {
+@media (max-width: 560px) {
     .visa-logo {
-        width:45px;
+        width: 60px;
+        height: 30px;
     }
-    .binance-logo {
-        width:65px;
-    }
-    .uala-logo {
-        width:40px;
+    .bitcoin-logo {
+        width: 70px;
+        height: 42px;
     }
     .mercado-pago-logo {
-        width:35px;
+        width: 110px;
+        height: 43px;
+    }
+    .paypal-logo {
+        width: 40px;
+        height: 40px;
+    }
+    .mastercard-logo {
+        width: 63px;
+        height: 41px;
     }
 }
-@media (max-width: 290px) {
+@media (max-width: 300px) {
     .section2-pay {
         display: flex;
         flex-direction: column;
