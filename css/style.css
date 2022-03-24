@@ -647,7 +647,7 @@ select option {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
-    background: linear-gradient(to bottom, rgb(6, 38, 128), rgb(15, 5, 43));
+    background: linear-gradient(to bottom, rgb(22, 128, 40), rgb(19, 82, 12));
     padding: 15px;
     border-radius: 15px;
 }
@@ -725,7 +725,7 @@ select option {
     }
     
 }
-@media (max-width: 560px) {
+@media (max-width: 565px) {
     .visa-logo {
         width: 60px;
         height: 30px;
@@ -735,7 +735,7 @@ select option {
         height: 42px;
     }
     .mercado-pago-logo {
-        width: 110px;
+        width: 135px;
         height: 43px;
     }
     .paypal-logo {
@@ -747,7 +747,7 @@ select option {
         height: 41px;
     }
 }
-@media (max-width: 300px) {
+@media (max-width: 340px) {
     .section2-pay {
         display: flex;
         flex-direction: column;
