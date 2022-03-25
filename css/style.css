@@ -368,7 +368,7 @@ main {
 /* main */
 
 .section1 {
-    background-image: url(/assets/img/font2.webp);
+    background-image: url(/assets/img/img6.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -432,7 +432,7 @@ main {
 @media (min-width: 680px) {
     .section1 {
         padding: 200px 0;
-        height: 700px;
+        height: 720px;
     }
     .title {
         font-size: 75px;
