@@ -946,7 +946,10 @@ select option {
     margin-bottom: 30px;
     margin-top: 100px;
 }
-.container-section6 {
+.section6 ul {
+    padding: 0;
+}
+/* .container-section6 {
     display: flex;
     justify-content: space-around;
 }
@@ -1001,7 +1004,7 @@ select option {
 }
 .boosters-section6 h3 a {
     color: #fff;
-}
+} */
 
 /* icons */
 .icon {
