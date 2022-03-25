@@ -368,15 +368,16 @@ main {
 /* main */
 
 .section1 {
-    background-image: url(/assets/img/img6.png);
+    background-image: url(/assets/img/font2.webp);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .container-section1 {
     width: 90%;
+    margin: 0 auto;
 }
 .title {
     text-transform: uppercase;
@@ -384,7 +385,7 @@ main {
     letter-spacing: 2px;
     width: 90%;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 30px;
     padding-top: 50px;
     padding-bottom: 10px;
     /* line-height: 50px; */
@@ -429,20 +430,6 @@ main {
     filter: drop-shadow(0 0 0px #147e3c) drop-shadow(0 0 10px #147e3c) drop-shadow(0 0 40px #147e3c);
     transition: all 1s;
 }
-@media (min-width: 680px) {
-    .section1 {
-        padding: 200px 0;
-        height: 720px;
-    }
-    .title {
-        font-size: 75px;
-        padding-bottom: 35px;
-    }
-    .button-section1 {
-        font-size: 20px;
-        margin-top: 150px;
-    }
-}
 @media (min-width: 480px) {
     .section1 {
         padding: 150px 0;
@@ -457,6 +444,28 @@ main {
 @media (min-width: 320px) {
     .button-section1 {
         width: auto;
+    }
+}
+@media (min-width: 680px) {
+    .section1 {
+        padding: 200px 0;
+        height: 720px;
+    }
+    .title {
+        font-size: 75px;
+        padding-bottom: 35px;
+    }
+    .description {
+        font-size: 20px;
+    }
+    .button-section1 {
+        font-size: 20px;
+        margin-top: 150px;
+    }
+}
+@media (max-width: 480px) {
+    .section1 {
+        padding-top: 60px;
     }
 }
 
