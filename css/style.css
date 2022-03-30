@@ -1,5 +1,6 @@
 :root {
-    --background: #080f28;
+    /* --background: #080f28; */
+    --background: #113402;
     --gray: rgb(80, 80, 80);
     --buttons: #4842d1;
 }
@@ -19,6 +20,7 @@ body {
     margin: 0;
     color: white;
     background-color: #080f28;
+    background-color: #113402;
 }
 
 a {
