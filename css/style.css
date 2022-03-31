@@ -1,6 +1,6 @@
 :root {
     /* --background: #080f28; */
-    --background: #113402;
+    --background: #041812;
     --gray: rgb(80, 80, 80);
     --buttons: #4842d1;
 }
@@ -19,8 +19,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     color: white;
-    background-color: #080f28;
-    background-color: #113402;
+    /* background-color: #080f28; */
+    background-color: #041812;
 }
 
 a {
@@ -370,7 +370,7 @@ main {
 /* main */
 
 .section1 {
-    background-image: url(/assets/img/font2.webp);
+    background-image: url(/assets/img/Sin\ título-1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
